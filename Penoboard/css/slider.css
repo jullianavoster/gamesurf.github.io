@@ -1,0 +1,97 @@
+.skdslider {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: block;
+  overflow: hidden; }
+  .skdslider .slide-navs {
+    float: left;
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+    list-style-type: none;
+    text-align: center; }
+    .skdslider .slide-navs li {
+      display: inline-block;
+      background: white;
+      height: 3px;
+      width: 25px;
+      margin: 0px 4px;
+      cursor: pointer;
+      position: relative;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s; }
+    .skdslider .slide-navs .current-slide {
+      background: rgba(255, 255, 255, 0.6); }
+  .skdslider .slides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .skdslider .slides li {
+      display: none;
+      position: relative; }
+      .skdslider .slides li img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        position: absolute;
+        -o-object-fit: auto;
+           object-fit: auto;
+        display: block; }
+    @media only screen and (min-width: 1000px) {
+      .skdslider .slides li img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        }
+    }
+  .skdslider .slide-desc {
+    left: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .skdslider .slide-desc > h1 {
+      color: #CFDB0C;
+      font-size: 25px;
+      margin: 0px;
+      text-transform: uppercase; }
+    .skdslider .slide-desc > p {
+      color: #FFFFFF;
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 5px;
+      font-weight: 300; }
+    .skdslider .slide-desc > p a.more:hover {
+      text-decoration: underline; }
+  .skdslider a.prev {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    margin-top: -17px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+  .skdslider a.next {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    margin-top: -17px;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+  .skdslider .next:hover, .skdslider .prev:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=80); }
