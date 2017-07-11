@@ -1,0 +1,700 @@
+body {
+  font-family: 'Roboto Light', sans-serif;
+  font-color: #0f5f5c;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-size: 14px;
+  color: #83a7a5;
+  font-weight: bold;
+  margin: 0; }
+
+button {
+  background: #6fb048;
+  font-size: 13px;
+  border: none;
+  padding: 18px 38px 18px 38px;
+  color: white;
+  font-weight: bold;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+
+button:hover {
+  background: #8ad55d;
+  cursor: pointer; }
+
+h1 {
+  font-size: 38px;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 32px;
+  color: #0f5f5c;
+  font-family: 'Roboto Light', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0f5f5c;
+  margin: 0; }
+
+hr {
+  height: 1px;
+  border: none;
+  background: #6fb048;
+  width: 60px; }
+
+header {
+  width: 100%;
+  height: 800px;
+  background: url(../img/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; }
+
+.main1 {
+  background: url(../img/bgmenu.png);
+  height: 200px;
+  background-position: top; }
+
+.logotxt {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28.75px;
+  padding-top: 25px; }
+  .logotxt a {
+    color: #fff; }
+  .logotxt .telnumber {
+    font-size: 15px;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10px; }
+  .logotxt .telnumber:hover {
+    cursor: default; }
+
+.stick1 {
+  margin-left: 28px; }
+
+.icontel {
+  margin-left: 28px;
+  margin-bottom: 4px; }
+
+.topnav {
+  width: 100%;
+  position: fixed;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 1; }
+
+.topp {
+  padding-bottom: 26px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #6d8180; }
+
+.nav {
+  float: right;
+  margin: -26px 0; }
+
+.nav ul {
+  margin: 0;
+  padding: 0; }
+
+.nav li {
+  margin: 0 5px 10px 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; }
+
+.nav a {
+  padding: 9px 12px;
+  text-decoration: none;
+  color: #ced2d2;
+  line-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 13px; }
+
+.nav li a :hover {
+  color: white; }
+
+.nav .current a {
+  background: #6d8180;
+  color: #fff;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.nav.right ul {
+  text-align: right; }
+
+.main2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 110px; }
+  .main2 h1 {
+    color: #fff; }
+  .main2 p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px; }
+  .main2 button {
+    font-size: 14px;
+    margin-top: 20px; }
+
+.main3 {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  padding-top: 80px;
+  margin: auto;
+  padding-bottom: 120px; }
+  .main3 p {
+    text-align: center; }
+  .main3 .main3part1 {
+    width: 30%;
+    padding-top: 60px;
+    display: inline-block;
+    vertical-align: top; }
+    .main3 .main3part1 p {
+      padding-top: 15px;
+      line-height: 22px; }
+  .main3 .m3p2 {
+    margin-left: 50px; }
+  .main3 h4 {
+    text-align: center;
+    padding-top: 15px; }
+  .main3 .icon1 {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background: url(../img/icon1.png);
+    margin: auto; }
+  .main3 .icon2 {
+    background: url(../img/icon2.png); }
+  .main3 .icon3 {
+    background: url(../img/icon3.png); }
+
+.clear {
+  clear: both; }
+
+.stick2 {
+  background: url(../img/stick2.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 91px;
+  margin-top: 20px; }
+
+.main4 {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  padding-top: 20px;
+  margin: auto; }
+  .main4 .main4part1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-top: 35px; }
+  .main4 h4 {
+    text-align: left;
+    float: left;
+    padding-top: 10px;
+    margin-left: 55px; }
+  .main4 .main4icon4 {
+    background: url(../img/icon4.png);
+    width: 100%;
+    max-width: 590px;
+    height: 40px;
+    background-repeat: no-repeat; }
+  .main4 .main4icon6 {
+    background: url(../img/icon6.png);
+    background-repeat: no-repeat; }
+  .main4 .main4icon5 {
+    background: url(../img/icon5.png);
+    background-repeat: no-repeat; }
+  .main4 .main4icon7 {
+    background: url(../img/icon7.png);
+    background-repeat: no-repeat; }
+  .main4 p {
+    text-align: left;
+    margin-top: 10px;
+    line-height: 22px; }
+
+.main5 {
+  background-color: #eef1ec;
+  width: 100%;
+  height: 100%; }
+
+.main5p {
+  width: 100%;
+  max-width: 1200px;
+  height: 577px;
+  padding-top: 80px;
+  margin: auto; }
+  .main5p p {
+    text-align: center; }
+  .main5p .main5part1 {
+    width: 40%;
+    height: 100%;
+    max-height: 485px;
+    float: left; }
+  .main5p .hand {
+    background: url(../img/hand.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 20px; }
+  .main5p .main5part2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+    max-height: 455px; }
+    .main5p .main5part2 h2 {
+      text-align: left;
+      padding-bottom: 15px;
+      padding-top: 140px; }
+    .main5p .main5part2 p {
+      text-align: left;
+      line-height: 20px; }
+    .main5p .main5part2 .galochka {
+      background: url(../img/galochka.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: 500px;
+      margin-top: 15px;
+      height: 24px; }
+    .main5p .main5part2 .galochkatxt {
+      margin-left: 30px;
+      line-height: 24px; }
+
+.main6 {
+  width: 100%;
+  height: 100%; }
+  .main6 .main6p {
+    max-width: 1200px;
+    margin: auto; }
+    .main6 .main6p .main6part1 {
+      float: left;
+      width: 48%;
+      padding-top: 250px; }
+      .main6 .main6p .main6part1 .main6txt {
+        font-size: 22px;
+        line-height: 35px; }
+      .main6 .main6p .main6part1 .author {
+        margin-top: 20px;
+        color: #6fb048; }
+    .main6 .main6p .main6part2 {
+      float: left;
+      width: 35%;
+      margin-left: 100px;
+      margin-top: 150px;
+      padding-bottom: 150px; }
+      .main6 .main6p .main6part2 img {
+        height: 100%;
+        width: 100%;
+        max-width: 400px;
+        max-height: 400px; }
+
+.main7 {
+  width: 100%;
+  background-color: #eef1ec;
+  height: 500px; }
+  .main7 .main7p {
+    max-width: 1200px;
+    margin: auto; }
+    .main7 .main7p .main7part1 {
+      float: left;
+      padding-top: 180px;
+      width: 50%; }
+      .main7 .main7p .main7part1 h2 {
+        text-align: left; }
+      .main7 .main7p .main7part1 p {
+        line-height: 25px; }
+    .main7 .main7p .main7part2 {
+      max-width: 760px;
+      float: left;
+      width: 50%;
+      padding-top: 100px; }
+      .main7 .main7p .main7part2 img {
+        width: 100%;
+        height: 100%;
+        max-width: 760px;
+        max-height: 390px;
+        background-size: cover;
+        background-repeat: no-repeat; }
+
+.main8 {
+  width: 100%;
+  height: 100%; }
+  .main8 .main8p {
+    max-width: 1200px;
+    height: 100%;
+    max-height: 5000px;
+    margin: auto; }
+    .main8 .main8p .main8title {
+      padding-top: 80px; }
+      .main8 .main8p .main8title p {
+        text-align: center;
+        line-height: 20px; }
+    .main8 .main8p .main8part1 {
+      float: left;
+      border: 2px solid #c1d3d2;
+      margin-left: -2px;
+      width: 33%;
+      height: 100%;
+      max-width: 300px;
+      max-height: 600px; }
+      .main8 .main8p .main8part1 p {
+        text-align: center; }
+      .main8 .main8p .main8part1 .main8button {
+        width: 100%;
+        height: 100%;
+        max-width: 170px;
+        max-height: 50px;
+        background: #6fb048;
+        -webkit-transition: 0.2s;
+        transition: 0.2s; }
+      .main8 .main8p .main8part1 .main8button:hover {
+        background: #8ad55d; }
+      .main8 .main8p .main8part1 .m8button2 {
+        background: #83a7a5; }
+      .main8 .main8p .main8part1 .m8button2:hover {
+        background: #85cac6; }
+      .main8 .main8p .main8part1 p {
+        line-height: 25px; }
+      .main8 .main8p .main8part1 .titlemain8 {
+        color: #6fb048;
+        font-size: 15px;
+        padding-top: 25px; }
+      .main8 .main8p .main8part1 .pricemain8 {
+        font-size: 65px;
+        color: #0f5f5c;
+        font-family: 'Roboto Bold', sans-serif;
+        line-height: 70px; }
+      .main8 .main8p .main8part1 .periodmain8 {
+        color: #0f5f5c; }
+    .main8 .main8p .main8parts {
+      width: 100%;
+      height: 100%;
+      max-width: 900px;
+      padding-top: 35px; }
+  .main8 .main8p2 {
+    max-width: 1200px;
+    height: 100%;
+    max-height: 5000px;
+    margin: auto; }
+    .main8 .main8p2 .titlemain8p2 {
+      padding-top: 65px;
+      font-size: 22px;
+      color: #0f5f5c; }
+    .main8 .main8p2 .main8p2part1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 33%; }
+    .main8 .main8p2 .galochka {
+      background: url(../img/galochka.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: 300px;
+      margin-top: 15px;
+      height: 24px; }
+    .main8 .main8p2 .galochkatxt {
+      margin-left: 30px;
+      line-height: 24px;
+      text-align: left; }
+    .main8 .main8p2 .icon9 {
+      padding-top: 45px; }
+    .main8 .main8p2 .icon9contact {
+      width: 100%;
+      max-width: 500px; }
+    .main8 .main8p2 h2 {
+      color: #6fb048; }
+    .main8 .main8p2 .icon9txt {
+      color: #0f5f5c;
+      font-size: 18px;
+      padding-top: 25px; }
+
+.main9 {
+  width: 100%;
+  height: 200px;
+  background: url(../img/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 90px; }
+  .main9 .main9p {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto; }
+    .main9 .main9p h2 {
+      text-align: left; }
+    .main9 .main9p .main9part1 {
+      float: left;
+      padding-top: 75px; }
+    .main9 .main9p .m9p2 {
+      margin-left: 300px; }
+
+footer {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px; }
+  footer .footerpart1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    height: 100%;
+    max-width: 300px; }
+    footer .footerpart1 .footertxt2 {
+      max-width: 200px; }
+    footer .footerpart1 .logotxt {
+      font-size: 22px;
+      padding-top: 0px; }
+    footer .footerpart1 p {
+      line-height: 25px; }
+    footer .footerpart1 a :hover {
+      color: #0f5f5c; }
+    footer .footerpart1 .footertxt {
+      color: #0f5f5c;
+      font-family: 'Roboto Bold', sans-serif; }
+    footer .footerpart1 textarea {
+      -webkit-border-radius: 6px;
+              border-radius: 6px;
+      border: none;
+      background-color: #eef1ec;
+      height: 100%;
+      max-height: 19px;
+      resize: none;
+      width: 100%;
+      max-width: 200px;
+      font-size: 15px;
+      padding: 10px 10px;
+      font-family: 'Roboto Condensed', sans-serif; }
+    footer .footerpart1 form {
+      margin-top: 10px; }
+    footer .footerpart1 img {
+      margin-left: -30px;
+      margin-bottom: 10px; }
+
+.footer2 {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  border-top: 1px solid #eef1ec;
+  margin-top: 70px; }
+  .footer2 .footer2part1 {
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .footer2 .footer2part1 p {
+      font-size: 12px; }
+  .footer2 .footer2part2 {
+    float: right;
+    margin-top: 15px; }
+
+.hidden {
+  opacity: 0; }
+
+@media screen and (max-width: 1200px) {
+  .main3 {
+    padding-bottom: 20px; }
+    .main3 .m3p2 {
+      margin-left: 30px; }
+  .main4 {
+    padding-bottom: 40px; }
+  .main5 .main5p {
+    padding-top: 30px; }
+    .main5 .main5p .main5part2 {
+      margin-left: 30px; }
+  .main6 .main6p .main6part1 {
+    float: left;
+    width: 48%;
+    padding-top: 250px; }
+    .main6 .main6p .main6part1 .main6txt {
+      font-size: 22px;
+      line-height: 35px; }
+    .main6 .main6p .main6part1 .author {
+      margin-top: 20px;
+      color: #6fb048; }
+  .main6 .main6p .main6part2 {
+    float: left;
+    width: 35%;
+    margin-left: 100px;
+    margin-top: 150px;
+    padding-bottom: 150px; }
+  .main7 {
+    height: 400px; }
+    .main7 .main7p .main7part1 {
+      padding-top: 100px; }
+    .main7 .main7p .main7part2 {
+      padding-top: 100px; } }
+
+@media screen and (max-width: 900px) {
+  .nav {
+    position: relative;
+    min-height: 40px;
+    margin: -32px 0; }
+  .nav ul {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 1px #aaa;
+    background: url(../img/icon-menu.png) no-repeat 10px 11px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+  .nav li {
+    display: none;
+    margin: 0; }
+  .nav .current {
+    display: block; }
+    .nav .current a {
+      color: #fff; }
+  .nav a {
+    display: block;
+    padding: 7px 5px 7px 26px;
+    text-align: left; }
+  .nav ul:hover li {
+    display: block;
+    background: #fff; }
+  .nav ul:hover .current {
+    background: url(../img/icon-check.png) no-repeat 10px 7px; }
+  .nav.right ul {
+    left: auto;
+    right: 0; }
+  .main3 {
+    padding-top: 20px; }
+    .main3 .m3p2 {
+      margin-left: 15px; }
+  .main2 {
+    padding-top: 0px;
+    margin-top: -30px; }
+  header {
+    height: 400px; }
+  .main5 .main5p {
+    height: 680px;
+    max-height: 605px; }
+    .main5 .main5p .hand {
+      background-position: top right; }
+    .main5 .main5p .main5part2 {
+      max-height: 455px; }
+      .main5 .main5p .main5part2 h2 {
+        padding-bottom: 15px;
+        padding-top: 15px; }
+      .main5 .main5p .main5part2 .galochkatxt {
+        line-height: 11px; }
+  .main6 .main6p .main6part1 {
+    padding-top: 30px; }
+  .main6 .main6p .main6part2 {
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 30px; }
+  .main7 .main7p .main7part1 {
+    padding-top: 50px; } }
+
+@media screen and (max-width: 600px) {
+  .logotxt .telnumber {
+    font-size: 10px;
+    margin-top: 10px; }
+  .main3 {
+    padding-bottom: 10px; }
+  .main5p {
+    padding-top: 10px;
+    height: 575px; }
+    .main5p .main5part2 {
+      margin-left: 0px; }
+  .main6 .main6p .main6part1 {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .main6 .main6p .main6part2 {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 10px; }
+  .main7 {
+    height: 350px; }
+    .main7 .main7p .main7part1 {
+      padding-top: 10px;
+      width: 55%; }
+    .main7 .main7p .main7part2 {
+      padding-top: 10px;
+      max-width: 250px; }
+  .main8 .main8p button {
+    padding: 10px 38px 18px 38px; }
+  .main8 .main8p .main8title {
+    padding-top: 10px; }
+  .main8 .main8p .main8part1 {
+    width: 32%;
+    max-width: 300px; }
+    .main8 .main8p .main8part1 .pricemain8 {
+      font-size: 55px; }
+  .main8 .main8p .main8part1:nth-child(1) {
+    margin-left: 5px; }
+  .main8 .main8p2 .galochkatxt {
+    line-height: 12px;
+    padding-top: 5px; }
+  .main8 .main8p2 .main8p2part1 {
+    width: 31%; }
+  .main8 .main8p2 .titlemain8p2 {
+    padding-top: 10px; }
+  .main8 .main8p2 .icon9txt {
+    padding-top: 5px; }
+  .main9 {
+    height: 160px;
+    margin-top: 10px; }
+    .main9 .main9p .main9part1 {
+      padding-top: 15px; }
+    .main9 .main9p .m9p2 {
+      margin-left: 0px; }
+  footer {
+    margin-top: 20px; }
+    footer .footerpart1 textarea {
+      max-width: 90px;
+      padding: 10px 5px; }
+    footer .footerpart1 img {
+      margin-left: -25px; }
+  .footer2 {
+    margin-top: 10px; } }
+
+@media screen and (max-width: 570px) {
+  .main3 .main3part1 {
+    width: 29%; }
+  .main7 {
+    height: 500px; }
+    .main7 .main7p .main7part1 {
+      padding-top: 10px;
+      width: 65%; }
+    .main7 .main7p .main7part2 {
+      padding-top: 10px;
+      max-width: 110px; }
+  .main8 .main8p .main8part1 .pricemain8 {
+    font-size: 48px; }
+  .main8 .main8p2 .galochka {
+    margin-top: 30px; }
+  .main8 .main8p2 .galochkatxt {
+    margin-left: 30px;
+    line-height: 12px; }
+  .main9 {
+    height: 200px; }
+  footer .footerpart1 textarea {
+    max-width: 70px; } }
