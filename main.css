@@ -41,10 +41,11 @@ header > div:hover {
     opacity: 0.5;
 }
 
-header > div:hover > a {
-    border-bottom: 1px solid white;
-}
-
 .my-name {
     padding: 20px 0 20px 0;
+}
+
+.my-name:hover {
+    color: white;
+    cursor: pointer;
 }
