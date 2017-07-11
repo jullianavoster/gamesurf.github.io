@@ -139,6 +139,7 @@ header:hover h1 {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     color: white;
+    transition: 0.5s;
 }
 
 .project-sections input[type="radio"]:checked + label { 
@@ -150,13 +151,21 @@ header:hover h1 {
 .project-sections > input:nth-of-type(1):checked ~ div:nth-of-type(1),
 .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) { 
     display: block; 
-    padding: 15px; 
+    padding: 15px;
 }
 
 @media screen and (max-width: 480px) {
     
     .project-sections {
         font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .project-sections {
+        font-size: 10px;
     }
 
 }
