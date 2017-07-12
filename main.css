@@ -112,6 +112,37 @@ header:hover h1 {
     padding: 0;
 }
 
+/*==================================================
+ * SHADOW-EFFECT
+ * ===============================================*/
+.shadow-effect {
+    position: relative;
+}
+.shadow-effect:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 12px;
+    right: 2px;
+    left: auto;
+    width: 50%;
+    top: 90%;
+    max-width:300px;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+
+/*==================================================
+ * /SHADOW-EFFECT
+ * ===============================================*/
+
 .projects {
     width: 100%;
     height: 100%;
@@ -152,6 +183,49 @@ header:hover h1 {
 .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) { 
     display: block; 
     padding: 15px;
+    height: 310px;
+}
+
+.project-sections .first-section .projects {
+    cursor: pointer;
+    text-align: center;
+    width: 50%;
+    float: left;
+    border: 3px dashed #00b3ff;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    padding: 20px;
+    min-height: 270px;
+}
+
+.project-sections .first-section .projects img {
+    height: 50%;
+    width: 50%;
+}
+
+.project-sections .first-section .first-project {
+    width: 50%;
+    float: left;
+    border-top-right-radius: 0;
+    border-right: none;
+    border-bottom-right-radius: 0;
+}
+
+.project-sections .first-section .second-project {
+    border-bottom-left-radius: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .project-sections .first-section .projects {
+        min-height: 230px;
+    }
+
+    .project-sections > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+    .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) {
+        height: 260px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -160,12 +234,42 @@ header:hover h1 {
         font-size: 12px;
     }
 
+    .project-sections .first-section .projects {
+        min-height: 120px;
+    }
+
+    .project-sections .first-section .projects h2 {
+        font-size: 12px;
+    }
+
+    .projects {
+        max-height: 135px;
+    }
+
+    .project-sections > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+    .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) {
+        height: 170px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
 
     .project-sections {
         font-size: 10px;
+    }
+
+    .project-sections .first-section .projects {
+        min-height: 100px;
+    }
+
+    .project-sections .first-section .projects h2 {
+        font-size: 10px;
+    }
+
+    .project-sections > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+    .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) {
+        height: 150px;
     }
 
 }
