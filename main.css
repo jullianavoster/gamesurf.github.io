@@ -9,13 +9,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-a {
+a.title-link {
     text-decoration: none;
     color: white;
     line-height: 1;
 }
 
-a:after {
+a.title-link:after {
     display: block;
     content: "";
     height: 2px;
@@ -28,11 +28,11 @@ a:after {
     margin: auto;
 }
 
-a:hover:after {
+a.title-link:hover:after {
     width: 100px;
 }
 
-a:active:after {
+a.title-link:active:after {
     background-color: black;
 }
 
@@ -40,6 +40,10 @@ h1 {
     font-weight: lighter;
     text-align: center;
     font-size: 35px;
+}
+
+h2 {
+    font-weight: lighter;
 }
 
 header h1 {
@@ -183,11 +187,10 @@ header:hover h1 {
 .project-sections > input:nth-of-type(2):checked ~ div:nth-of-type(2) { 
     display: block; 
     padding: 15px;
-    height: 310px;
+    height: 305px;
 }
 
 .project-sections .first-section .projects {
-    cursor: pointer;
     text-align: center;
     width: 50%;
     float: left;
@@ -196,6 +199,15 @@ header:hover h1 {
     border-top-left-radius: 0;
     padding: 20px;
     min-height: 270px;
+    color: #00b3ff;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    -moz-transition: .4s;
+    transition: .4s;
+}
+
+.project-sections .first-section .projects:hover {
+    color: black;
 }
 
 .project-sections .first-section .projects img {
