@@ -15,6 +15,11 @@ body {
     clear: both;
 }
 
+.page-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
 h1 {
     font-weight: lighter;
     text-align: center;
@@ -215,7 +220,7 @@ header:hover h1 {
     text-align: center;
     width: 50%;
     float: left;
-    border: 3px dashed #00b3ff;
+    border: 2px dashed #00b3ff;
     border-radius: 8px;
     border-top-left-radius: 0;
     padding: 17px 20px 20px 20px;
@@ -321,8 +326,6 @@ footer {
     width: 100%;
     height: 100px;
     margin-top: 50px;
-    border-radius: 5px;
-    border-top-left-radius: 0;
     outline: 2px dashed #00b3ff;
     outline-offset: -7px;
     line-height: 90px;
@@ -330,6 +333,7 @@ footer {
 
 footer .img-center {
     text-align: center;
+    height: 115px;
 }
 
 footer .logo {
@@ -342,6 +346,10 @@ footer .logo {
 
     footer .logo {
         width: 30%;
+    }
+
+    .page-wrapper {
+        max-width: 1000px;
     }
 
 }
