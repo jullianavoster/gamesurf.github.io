@@ -24,7 +24,6 @@ body {
 
 h1 {
     font-weight: lighter;
-    text-align: center;
     font-size: 35px;
 }
 
@@ -62,6 +61,7 @@ a.title-link:active:after {
 header h1 {
     opacity: 0;
     color: white;
+    text-align: center;
     line-height: 80px;
     font-size: 45px;
     -webkit-transition: 0.3s;
@@ -121,6 +121,7 @@ header:hover h1 {
 
 .portfolio-titles {
     padding: 20px 0 20px 0;
+    text-align: center;
 }
 
 .portfolio-titles img {
@@ -131,6 +132,7 @@ header:hover h1 {
 
 .portfolio-titles h1 {
     color: white;
+    font-size: 40px;
 }
 
 .portfolio-titles .my-position {
@@ -419,15 +421,29 @@ footer .logo {
 
     .project-sections .first-section .projects img {
         width: 90%;
+        max-height: 130px;
+    }
+
+    .project-sections .first-section .project-text {
+        line-height: 70px;
+    }
+
+    body {
+        outline-offset: -8px;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .project-sections .first-section .projects img {
+        width: 90%;
         max-height: 100px;
     }
 
     .project-sections .first-section .project-text {
         line-height: 60px;
-    }
-
-    body {
-        outline-offset: -8px;
     }
 
 }
@@ -456,7 +472,11 @@ footer .logo {
     }
 
     .project-sections .first-section .project-text {
-        line-height: 45px;
+        line-height: 50px;
+    }
+
+    .portfolio-titles h1 {
+        font-size: 35px;
     }
 
 }
