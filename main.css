@@ -98,10 +98,10 @@ header > div {
     border-left: 2px dashed white;
     border-right: 2px dashed white;
     margin-top: -5px;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    -moz-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
     overflow: hidden;
     left: 0.4%;
 }
@@ -159,7 +159,7 @@ header:hover h1 {
     position: absolute;
     content: "";
     bottom: 12px;
-    right: 2px;
+    right: 10px;
     left: auto;
     width: 50%;
     top: 40%;
@@ -204,7 +204,10 @@ header:hover h1 {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     color: white;
-    transition: 0.5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
 }
 
 .project-sections input[type="radio"]:checked + label { 
@@ -325,6 +328,36 @@ header:hover h1 {
     background-color: white;
 }
 
+.project-sections .second-section {
+    border: 2px dashed #00b3ff;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.project-sections .second-section a {
+    padding: 15px;
+}
+
+.project-sections .second-section img {
+    border: 3px solid #00b3ff;
+    width: 20%;
+    max-height: 200px;
+    cursor: zoom-in;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+    opacity: .7;
+}
+
+.project-sections .second-section img:hover {
+    border-color: black;
+    opacity: 1;
+}
+
 footer {
     position: absolute;
     display: block;
@@ -397,10 +430,19 @@ footer .logo {
         max-height: 180px;
     }
 
+    .project-sections .second-section img {
+        width: 25%;
+        max-height: 150px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
     
+    body {
+        outline-offset: -8px;
+    }
+
     .project-sections {
         font-size: 12px;
     }
@@ -428,8 +470,9 @@ footer .logo {
         line-height: 70px;
     }
 
-    body {
-        outline-offset: -8px;
+    .project-sections .second-section img {
+        width: 25%;
+        max-height: 100px;
     }
 
 }
@@ -477,6 +520,11 @@ footer .logo {
 
     .portfolio-titles h1 {
         font-size: 35px;
+    }
+
+    .project-sections .second-section img {
+        width: 30%;
+        max-height: 100px;
     }
 
 }
