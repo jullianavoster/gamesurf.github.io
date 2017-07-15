@@ -154,10 +154,16 @@ header:hover h1 {
     -o-transition: .2s;
     -moz-transition: .2s;
     transition: .2s;
+    -webkit-filter: contrast(1.2);
+    -ms-filter: contrast(1.2);
+    filter: contrast(1.2);
 }
 
 .portfolio-titles .pt-wrapper img:hover {
     border: 5px solid black;
+    -webkit-filter: contrast(1.5);
+    -ms-filter: contrast(1.5);
+    filter: contrast(1.5);
 }
 
 .portfolio-titles img {
