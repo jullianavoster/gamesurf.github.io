@@ -146,7 +146,7 @@ header:hover h1 {
 
 .portfolio-titles .pt-wrapper img {
     width: 35%;
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 50%;
     margin: 10px 0;
     cursor: pointer;
@@ -157,7 +157,7 @@ header:hover h1 {
 }
 
 .portfolio-titles .pt-wrapper img:hover {
-    border: 4px solid black;
+    border: 5px solid black;
 }
 
 .portfolio-titles img {
