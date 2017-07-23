@@ -270,14 +270,18 @@ header:hover h1 {
     height: 100%;
 }
 
+.project-sections .first-section {
+    border: 2px dashed #00b3ff;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+}
+
 .project-sections .first-section .projects {
     text-align: center;
     width: 50%;
     float: left;
-    border: 2px dashed #00b3ff;
-    border-radius: 8px;
-    border-top-left-radius: 0;
-    padding: 17px 20px 20px 20px;
+    margin-top: 10px;
+    padding: 17px 20px 30px;
     color: #00b3ff;
     -webkit-transition: .4s;
     -o-transition: .4s;
@@ -316,12 +320,6 @@ header:hover h1 {
 
 .project-sections .first-section .projects:hover h2 span {
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.project-sections .first-section .first-project {
-    border-top-right-radius: 0;
-    border-right: none;
-    border-bottom-right-radius: 0;
 }
 
 .project-sections .first-section .project-text {
